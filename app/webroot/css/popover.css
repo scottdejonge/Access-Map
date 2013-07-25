@@ -1,0 +1,59 @@
+/**
+ * jQuery.popover example stylesheet.
+ * By Davey IJzermans
+ * http://daveyyzermans.nl
+ * 
+ * License: public domain
+ */
+
+.popover {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	max-height: 240px;
+	width: 220px;
+	display: none;
+}
+.popover.wider {
+	width: 340px;
+}
+.popover.large {
+	width: 470px;
+	max-height: 350px;
+}
+.popover .arrow {
+	position: relative;
+	top: 0; 
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #121212;
+}
+.popover .wrap {
+	background: white;
+	border: 3px solid #121212;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.popover .title {
+	background: #121212;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 8px 0 0 0;
+	height: 27px;
+}
+.popover .content {
+	padding: 15px;
+	max-height: 175px;
+	overflow: auto;
+	line-height: 1.3em;
+	font-size: 0.9em;
+}
+.popover.large .content {
+	max-height: 285px;
+}
